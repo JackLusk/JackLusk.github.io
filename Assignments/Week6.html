@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<title>JackLusk_DigiFab</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button"><b>Jack</b> Lusk</a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+              <a href="#home" class="w3-bar-item w3-button"><b>Jack</b> Lusk</a>
+              <!-- Float links to the right. Hide them on small screens -->
+              <div class="w3-right w3-hide-small">
+              <a href="../projects.html" class="w3-bar-item w3-button">Projects</a>
+              </div>
+            </div>
+          </div>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>BR</b></span> <span class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+  </div>
+</header>
+
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+    <!-- About Section -->
+    <div class="w3-container w3-padding-32" id="about">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Week 6</h3>
+      <p>FDM Printers work by heating and then extruding a filament in a semi-liquid state, that when solidifies creates a solid structure. By manipulating where and when filament is extruded, complex, three-dimensional structures can be created that remain sturdy and usable for quite some time.
+      </p>
+      <p>The Prusa Slicer is a type of FDM printer that we use at Wheaton. By reading a file imported to the machine, it can use installed PLA filament to lay out and create a small structure on its bed. The structures it can make are highly complex, creating sharp angles and structural supports, however the size of the structure is fairly small, roughly 10x12 inches. This means the machine is versatile in creating many objects, but only up to a certain size. </p>
+      <a href="/Assignments/Week6.html"></a><img src="/images/3DPrinter.png" width= "500" height= "450">
+      <p>To begin our design in Fusion 360, I create a basic circle, and then utilize the Offset tool to create a second layer to loft. After this I loft them, attaching each layer to eachother.</p>
+      <a href="/Assignments/Week6.html"></a><img src="/images/3DPrintOffset.png" width= "500" height= "450">
+      <a href="/Assignments/Week6.html"></a><img src="/images/3DPrintLoft.png" width= "500" height= "450">
+   <p>Then, I Shell the shape to hollow it, as well as add some Fillet for added pizazz.</p>
+   <a href="/Assignments/Week6.html"></a><img src="/images/3DPrintShell.png" width= "500" height= "450">
+  <p>It is ready to be uploaded! First I send it through PrusaSlicer Application, converting the file to GCode, and then upload it to the FDM Printer.</p>
+  <a href="/Assignments/Week6.html"></a><img src="/images/3DGCode.png" width= "500" height= "450">
+  <a href="/Assignments/Week6.html"></a><img src="/images/3DScreen.png" width= "500" height= "450">
+  <p>After running the print, the pot is ready!</p>
+  <a href="/Assignments/Week6.html"></a><img src="/images/3DPrinted.png" width= "500" height= "450">
+  <a href="/Assignments/Week6.html"></a><img src="/images/3DFinal.png" width= "500" height= "450">
+  </div>
+
+</html>
